@@ -62,7 +62,7 @@ addFeeds small https://github.com/kenzok8/small.git
 # 磁盘管理
 ### git clone --depth=1 https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 # 温度插件
-### git clone --depth=1 https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
+git clone --depth=1 https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
 
 # 带宽监控+在线设备，相互依赖
 ### git_sparse_clone main https://github.com/kenzok8/small-package luci-app-wrtbwmon wrtbwmon luci-app-onliner
