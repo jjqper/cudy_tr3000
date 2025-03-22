@@ -45,33 +45,33 @@ addFeeds small https://github.com/kenzok8/small.git
 
 # 支持 turboacc
 # 不带 shortcut-fe
-curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
+### curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh --no-sfe
 # 带  不带 shortcut-fe
 # curl -sSL https://raw.githubusercontent.com/chenmozhijin/turboacc/luci/add_turboacc.sh -o add_turboacc.sh && bash add_turboacc.sh
 
 # 关机
-git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
+### git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 # 应用过滤
 git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 # 钉钉推送
-git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
+### git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 # 端口转发
-git clone --depth=1 https://github.com/chenmozhijin/luci-app-socat package/luci-app-socat
+### git clone --depth=1 https://github.com/chenmozhijin/luci-app-socat package/luci-app-socat
 # 定时重启
-git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
+### git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
 # 磁盘管理
-git clone --depth=1 https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
+### git clone --depth=1 https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 # 温度插件
-git clone --depth=1 https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
+### git clone --depth=1 https://github.com/gSpotx2f/luci-app-temp-status package/luci-app-temp-status
 
 # 带宽监控+在线设备，相互依赖
-git_sparse_clone main https://github.com/kenzok8/small-package luci-app-wrtbwmon wrtbwmon luci-app-onliner
+### git_sparse_clone main https://github.com/kenzok8/small-package luci-app-wrtbwmon wrtbwmon luci-app-onliner
 # usb打印+网络唤醒Plus
-git_sparse_clone main https://github.com/kenzok8/small-package luci-app-usb-printer luci-app-wolplus
+### git_sparse_clone main https://github.com/kenzok8/small-package luci-app-usb-printer luci-app-wolplus
 # KMS 
-git_sparse_clone main https://github.com/kenzok8/small-package luci-app-vlmcsd vlmcsd
+### git_sparse_clone main https://github.com/kenzok8/small-package luci-app-vlmcsd vlmcsd
 
 # luci-app-airplay2
-git_sparse_clone luci19 https://github.com/tcsr200722/openwrt-luci-app luci-app-airplay2
+### git_sparse_clone luci19 https://github.com/tcsr200722/openwrt-luci-app luci-app-airplay2
 
-git_sparse_clone main https://github.com/kenzok8/small-package dns2socks ipt2socks microsocks
+### git_sparse_clone main https://github.com/kenzok8/small-package dns2socks ipt2socks microsocks
