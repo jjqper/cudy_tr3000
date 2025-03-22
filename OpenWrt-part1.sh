@@ -52,7 +52,7 @@ addFeeds small https://github.com/kenzok8/small.git
 # 关机
 ### git clone --depth=1 https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 # 应用过滤
-git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+### git clone --depth=1 https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 # 钉钉推送
 ### git clone --depth=1 https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 # 端口转发
